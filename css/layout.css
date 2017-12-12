@@ -71,6 +71,18 @@ footer{
   cursor: pointer;
   color: var(--color-brand);
 }
+.vr_kachel{
+  text-align: center;
+}
+.vr_vids{
+  
+}
+.kachel_video{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
 /* TYPO
 -----------------------------------------------------------------------------*/
 .kachel_title{
