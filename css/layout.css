@@ -74,14 +74,30 @@ footer{
 .vr_kachel{
   text-align: center;
 }
-.vr_vids{
-  
-}
+
 .kachel_video{
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2rem;
+}
+.spiel_main{
+  text-align: center;
+
+}
+.scratch_frame{
+  margin: 2rem;
+}
+.spiel_navigation{
+  display: flex;
+	align-items: center;
+  justify-content: center;
+}
+.spiel_navigation_pfeil:visited{
+  color: #666;
+}
+.spiel_navigation_pfeil:hover{
+  color: var(--color-brand);
 }
 /* TYPO
 -----------------------------------------------------------------------------*/
