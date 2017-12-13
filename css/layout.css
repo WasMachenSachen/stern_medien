@@ -22,6 +22,10 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;
   }
+  .beschreibung{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 .kachel_container{
   background-color: white;
@@ -67,6 +71,47 @@ footer{
   cursor: pointer;
   color: var(--color-brand);
 }
+.vr_kachel{
+  text-align: center;
+}
+
+.kachel_video{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.spiel_main{
+  text-align: center;
+
+}
+.scratch_frame{
+  margin: 2rem;
+}
+.spiel_navigation{
+  display: flex;
+	align-items: center;
+  justify-content: center;
+}
+.spiel_navigation_pfeil:visited{
+  color: #666;
+}
+.spiel_navigation_pfeil:hover{
+  color: var(--color-brand);
+}
+.btn{
+  background-color: var(--color-brand);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 12px 28px;
+  border-radius: 0.5rem;
+}
+.btn_alleSpiele{
+  margin-top: 3rem;
+}
 /* TYPO
 -----------------------------------------------------------------------------*/
 .kachel_title{
@@ -84,5 +129,10 @@ footer{
 }
 .beschreibung{
   font-size: 1.5rem;
-
+}
+.spiel_title{
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
