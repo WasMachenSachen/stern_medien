@@ -15,6 +15,9 @@ body{
   grid-column-gap: 20px;
   grid-row-gap: 30px;
 }
+.info_hidden{
+  display: none;
+}
 @media only screen and (max-width: 1000px){
   .kacheln{
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -22,7 +25,20 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;
   }
+  .beschreibung{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
+@media only screen and (max-width: 750px){
+  .spiel_main{
+    display: none;
+  }
+  .info_hidden{
+    display: block;
+  }
+}
+
 .kachel_container{
   background-color: white;
   border-radius: 0.5rem;
@@ -38,9 +54,15 @@ body{
   width: 100%;
   background-color: var(--color-brand);
   text-align: center;
-  padding-top: 1rem;
+padding-top: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+}
+.nav_leiste ul{
+  display: flex;
+  margin: 0;
+}
+.nav_leiste ul li {
+  list-style: none;
 }
 
 .kachel_icon{
@@ -66,7 +88,47 @@ footer{
 .kachel_button:hover{
   cursor: pointer;
   color: var(--color-brand);
+}
+.vr_kachel{
+  text-align: center;
+}
 
+.kachel_video{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+.spiel_main{
+  text-align: center;
+
+}
+.scratch_frame{
+  margin: 2rem;
+}
+.spiel_navigation{
+  display: flex;
+	align-items: center;
+  justify-content: center;
+}
+.spiel_navigation_pfeil:visited{
+  color: #666;
+}
+.spiel_navigation_pfeil:hover{
+  color: var(--color-brand);
+}
+.btn{
+  background-color: var(--color-brand);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 12px 28px;
+  border-radius: 0.5rem;
+}
+.btn_alleSpiele{
+  margin-top: 3rem;
 }
 /* TYPO
 -----------------------------------------------------------------------------*/
@@ -82,8 +144,14 @@ footer{
 .link_home{
   color: white;
   font-size: 1.5rem;
+  text-align: center;
 }
 .beschreibung{
   font-size: 1.5rem;
-
+}
+.spiel_title{
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
