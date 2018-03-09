@@ -1,0 +1,23 @@
+{
+  "alle_spiele" : [
+    {
+      "Name_der_Entwickler" : "Tim und Tom",
+      "Spiel_title" : "Super Game",
+      "scratch_link" : "https://scratch.mit.edu/projects/171068375/",
+      "download_link" : "https://www.dropbox.com/s/z8h3294z1u0ugem/super%20popi.sb2?dl=0"
+    },
+    {
+      "Name_der_Entwickler" : "peter",
+      "Spiel_title" : "Super Game2",
+      "scratch_link" : "https://scratch.mit.edu/projects/170601399/",
+      "download_link" : "https://www.dropbox.com/s/z8h3294z1u0ugem/super%20popi.sb2?dl=0"
+    },
+    {
+      "Name_der_Entwickler" : "horst",
+      "Spiel_title" : "Super Game3",
+      "scratch_link" : "https://scratch.mit.edu/projects/170601781/",
+      "download_link" : "https://www.dropbox.com/s/z8h3294z1u0ugem/super%20popi.sb2?dl=0"
+    }
+  ]
+
+}
