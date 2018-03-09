@@ -65,15 +65,11 @@ body{
   margin: 0;
 }
 .nav_leiste ul li {
-
   list-style: none;
 }
 .list_home{
-
   margin: auto;
-
 }
-
 .kachel_icon{
   margin-right: 1rem;
 }
@@ -85,9 +81,7 @@ footer{
   text-align: center;
   width:100%;
   padding-top: 2rem;
-
 }
-
 .kachel_button{
   width: 100%;
   margin-top: auto;
@@ -146,6 +140,10 @@ footer{
   border-spacing: 0;
   background-color:
 }
+.spielliste_table a{
+  /*text-decoration: none;*/
+  color: #666;
+}
 tr{
   border: none;
 }
@@ -156,7 +154,7 @@ th{
   border-bottom: 6px solid var(--color-brand);
 }
 th, td{
-  
+
   padding: 15px;
 }
 .platzhalter{

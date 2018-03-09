@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   else{aktuellesSpiel = url;}
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/2f0e8c10085e90a86487f4025e78d3f5/raw/b390e698d38643b08d1e851591dd7c08cc995c4c/spiele.json', true);
+request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/2f0e8c10085e90a86487f4025e78d3f5/raw/832ee3a6996026f9d279ff2364b2101c17c8ee77/spiele.json', true);
 
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
@@ -21,7 +21,7 @@ request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/2f0e8c10
                           data.alle_spiele[i].Name_der_Entwickler+
                           '</td><td>'+
                           data.alle_spiele[i].Spiel_title+
-                          '</td><td><a href="'+
+                          '</td><td><a target="_blank" href="'+
                           data.alle_spiele[i].scratch_link+
                           '">Jetzt spielen</a></td><td><a href="'+
                           data.alle_spiele[i].download_link+
