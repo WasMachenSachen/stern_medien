@@ -1,6 +1,5 @@
 body{
   background-color: #F5F6F6;
-
 }
 .main_einteilung{
   display: grid;
@@ -18,8 +17,6 @@ body{
 .info_hidden{
   display: none;
 }
-
-
 .kachel_container{
   background-color: white;
   border-radius: 0.5rem;
@@ -93,7 +90,6 @@ footer{
 }
 .spiel_main{
   text-align: center;
-
 }
 .scratch_frame{
   margin: 2rem;
@@ -212,6 +208,8 @@ th, td{
   padding-top: 6px;
   padding-left: 5px;
 }
+/* Media Querrys
+-----------------------------------------------------------------------------*/
 @media only screen and (max-width: 1000px){
   .kacheln{
     grid-template-rows: 1fr 1fr 1fr 1fr;

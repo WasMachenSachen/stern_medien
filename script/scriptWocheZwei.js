@@ -16,7 +16,6 @@ request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/2f0e8c10
       // Success!
       data = JSON.parse(request.responseText);
       array = data;
-      console.log(data.alle_spiele);
 
       for (var i = 0; i < data.alle_spiele.length; i++) {
 
@@ -62,4 +61,6 @@ function inhaltLoader() {
   document.getElementById('btn_scratch-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
   document.getElementById('btn_download-link').href = data.alle_spiele[aktuellesSpiel].download_link;
   document.getElementById('titel_bild').src = 'images/foto_spiel_'+aktuellesSpiel+'.png';
+  document.getElementById('titel_bild-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
+
 }
