@@ -1,10 +1,10 @@
 //media query
 function watchScreenSize(x) {
     if (ScreenSize.matches) { // If media query matches
-      document.getElementById('back_text').innerHTML = "zurück zum SSC";
+      document.getElementById('back_text').innerHTML = "zurück zu ssc.de";
     }
     else{
-      document.getElementById('back_text').innerHTML = "zurück zum Summer-Science-Camp";
+      document.getElementById('back_text').innerHTML = "zurück zu summer-science-camp.de";
     }
 }
 

@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   else{aktuellesSpiel = url;}
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/19fc42d8427bf04013f17ba1a535a542/raw/f3cd62142bdf26b933627266fe7fb4a10920827c/spiele2017.json', true);
+request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/19fc42d8427bf04013f17ba1a535a542/raw/c22e8b25d743bf45b19b7601a64a39bbb61ffd25/spiele2017.json', true);
 
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
