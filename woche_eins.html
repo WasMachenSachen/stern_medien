@@ -21,9 +21,10 @@
 <body>
   <div class = "main_einteilung">
     <div class = "nav_leiste">
-          <a href="index.html" class ="link_home without_linkstyle">STERN MEDIEN</a>
+        <div class="back_div" id="back_div" ><a href="http://www.summer-science-camp.de"><i class="alignLeft fas fa-angle-left fa-2x"></i><span id="back_text" class="back_text alignLeft slide-in">zurück zum Summer-Science-Camp</span></a></div>
+        <div><a href="index.html" class ="link_home without_linkstyle">STERN MEDIEN</a></div>
+        <dic></dic>
     </div>
-
     <div class = "main_inhalt">
       <div class ="beschreibung">
         <h1>Woche Eins</h1>
@@ -36,7 +37,8 @@
         <h2 class ="kachel_container spiel_title">Spiel von <span id="spiel_ersteller"></span></h2>
           <div class ="spiel_navigation">
             <a class ="spiel_navigation_pfeil" id="letztesSpiel" href="woche_eins.html" onclick="letztesSpiel()"><i class="far fa-arrow-alt-circle-left fa-4x"></i></a>
-                <iframe class="kachel_container scratch_frame" allowtransparency="true" width="485" height="402" src="" frameborder="0" ></iframe>
+              <!--    <iframe class="kachel_container scratch_frame" allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/171068375/" frameborder="0" ></iframe>-->
+              <div class="kachel_container scratch_frame"><img id="titel_bild" width="485" height="402" src="images/foto_spiel_1.png" alt="titelBild"></div>
             <a class ="spiel_navigation_pfeil" id="nächstesSpiel" href="woche_eins.html" onclick="nächstesSpiel()"><i class="far fa-arrow-alt-circle-right fa-4x"></i></a>
           </div>
           <div class="buttons">
@@ -48,22 +50,25 @@
   <div class="platzhalter"></div>
   <div class="spielliste hidden" id="spielliste">
     <table class = "spielliste_table" id="spielliste_table">
-      <tr>
+      <tr class ="table_head">
         <th>Name der Entwickler</th>
         <th>Spiel</th>
         <th></th>
         <th></th>
       </tr>
-    </table>
-  </div>
 
+    </table>
   </div>
   <div>
     <footer>
-        <p>made with <i class="fas fa-heart"></i> in <a class ="without_linkstyle" href="#">Cologne</a></p>
+        <p>made with <i class="fas fa-heart"></i> in <a class ="without_linkstyle link_creator" href="#">Cologne</a></p>
     </footer>
   </div>
+  </div>
 
-<script src="script/myscript.js" type="text/javascript"></script>
+
+<script src="script/scriptWocheEins.js" type="text/javascript"></script>
+<script src="script/scriptHeader.js" type="text/javascript"></script>
+
 </body>
 </html>
