@@ -1,5 +1,7 @@
 var aktuellesSpiel = 0;
 var data;
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
   var url = window.location.search;
   url = url.replace("?spiel=", ''); // remove the ?spiel=
@@ -7,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   else{aktuellesSpiel = url;}
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/2f0e8c10085e90a86487f4025e78d3f5/raw/832ee3a6996026f9d279ff2364b2101c17c8ee77/spiele.json', true);
+request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/2f0e8c10085e90a86487f4025e78d3f5/raw/e2350024b1e0c627ccb7432093a5881e844b98d7/spiele.json', true);
 
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
@@ -17,7 +19,8 @@ request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/2f0e8c10
       console.log(data.alle_spiele);
 
       for (var i = 0; i < data.alle_spiele.length; i++) {
-          var zwischen = '</tr><tr class="spielliste_content"><td>'+
+
+         var zwischen = '<tr class="spielliste_content"><td>'+
                           data.alle_spiele[i].Name_der_Entwickler+
                           '</td><td>'+
                           data.alle_spiele[i].Spiel_title+
@@ -33,7 +36,7 @@ request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/2f0e8c10
       // We reached our target server, but it returned an error
     }
 
-  spielErsteller();
+  inhaltLoader();
   };
 
   request.onerror = function() {
@@ -54,9 +57,9 @@ function letztesSpiel(){
   if(aktuellesSpiel > 0){aktuellesSpiel --;}
   document.getElementById('letztesSpiel').href = 'woche_eins.html?spiel='+aktuellesSpiel;
 }
-function spielErsteller() {
+function inhaltLoader() {
   document.getElementById('spiel_ersteller').innerHTML = data.alle_spiele[aktuellesSpiel].Name_der_Entwickler;
   document.getElementById('btn_scratch-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
   document.getElementById('btn_download-link').href = data.alle_spiele[aktuellesSpiel].download_link;
-
+  document.getElementById('titel_bild').src = 'images/foto_spiel_'+aktuellesSpiel+'.png';
 }

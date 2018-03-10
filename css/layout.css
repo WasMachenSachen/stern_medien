@@ -18,29 +18,7 @@ body{
 .info_hidden{
   display: none;
 }
-@media only screen and (max-width: 1000px){
-  .kacheln{
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .beschreibung{
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
-@media only screen and (max-width: 750px){
-  .spiel_main{
-    display: none;
-  }
-  .spielliste{
-    display: none;
-  }
-  .info_hidden{
-    display: block;
-  }
-}
+
 
 .kachel_container{
   background-color: white;
@@ -49,6 +27,7 @@ body{
   padding: 0.5rem;
 }
 .main_inhalt{
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   max-width: var(--content-width);
@@ -58,20 +37,30 @@ body{
   background-color: var(--color-brand);
   text-align: center;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.nav_leiste div{
+  text-align: center;
 }
 .nav_leiste ul{
   display: flex;
+  align-items: center;
   margin: 0;
+
 }
 .nav_leiste ul li {
   list-style: none;
+
 }
 .list_home{
   margin: auto;
 }
 .kachel_icon{
   margin-right: 1rem;
+
 }
 .without_linkstyle{
   text-decoration: none;
@@ -138,28 +127,58 @@ footer{
   width: 100%;
   text-align: left;
   border-spacing: 0;
-  background-color:
+
 }
 .spielliste_table a{
-  /*text-decoration: none;*/
   color: #666;
 }
 tr{
   border: none;
+  background-color: #dddddd;
+
 }
-.spielliste_content:nth-child(odd) {
+.table_head{
+  background-color: inherit;
+}
+.spielliste_table:nth-child(even) {
     background-color: #dddddd;
 }
 th{
   border-bottom: 6px solid var(--color-brand);
 }
 th, td{
-
   padding: 15px;
 }
 .platzhalter{
   margin-top: 2rem;
 }
+.back_div i,.back_text{
+  color: white;
+}
+.back_div{
+  /* cursor: pointer; */
+}
+.back_div i{
+  position: relative;
+  z-index: 6;
+  background-color: var(--color-brand);
+  padding-left: 5px;
+}
+/* Animationen
+-----------------------------------------------------------------------------*/
+.slide-in {
+  opacity: 0.99;
+  z-index: -1;
+  transform: translateX(-18rem);
+  -webkit-transform: translateX(-18rem);
+}
+
+.slide-in-content {
+  transform: translate(0);
+  -webkit-transform: translateX(0);
+  transition: all .5s ease; /* our nice transition */
+}
+
 /* TYPO
 -----------------------------------------------------------------------------*/
 .kachel_title{
@@ -184,4 +203,44 @@ th, td{
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
+}
+.link_creator{
+  color: var(--color-brand);
+}
+.back_text{
+  display: inline-block;
+  padding-top: 6px;
+  padding-left: 5px;
+}
+@media only screen and (max-width: 1000px){
+  .kacheln{
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .beschreibung{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media only screen and (max-width: 750px){
+  .spiel_main{
+    display: none;
+  }
+  .spielliste{
+    display: none;
+  }
+  .info_hidden{
+    display: block;
+  }
+}
+@media only screen and (max-width: 580px){
+  .back_text{
+    display: none !important;
+  }
+  .nav_leiste{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+  }
 }
