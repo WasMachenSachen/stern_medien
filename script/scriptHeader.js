@@ -17,9 +17,7 @@ document.getElementById('back_div').onmouseout = function() {textOut();};
 
 function textIn(){
   document.getElementById('back_text').classList.add("slide-in-content");
-  //document.getElementById('back_text').classList.add("slide-in-content");
 }
 function textOut(){
   document.getElementById('back_text').classList.remove("slide-in-content");
-  //document.getElementById('back_text').classList.remove("");
 }

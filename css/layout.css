@@ -190,6 +190,7 @@ th, td{
   color: white;
   font-size: 1.5rem;
   text-align: center;
+  padding-top: 2px;
 }
 .beschreibung{
   font-size: 1.5rem;
@@ -207,6 +208,28 @@ th, td{
   display: inline-block;
   padding-top: 6px;
   padding-left: 5px;
+}
+.tooltip{
+  position: relative;
+   display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: 0.8rem;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 /* Media Querrys
 -----------------------------------------------------------------------------*/
