@@ -1,3 +1,6 @@
+function gesperrtW1(){
+  document.getElementById('pfeil_woche1').classList.add('shake');
+}
 function gesperrtW2(){
   document.getElementById('pfeil_woche2').classList.add('shake');
 }

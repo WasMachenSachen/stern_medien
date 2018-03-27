@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   else{aktuellesSpiel = url;}
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/19fc42d8427bf04013f17ba1a535a542/raw/c22e8b25d743bf45b19b7601a64a39bbb61ffd25/spiele2017.json', true);
+request.open('GET', 'https://gist.githubusercontent.com/BenediktEngel/4f74cf087bbdaa6dfc3897ad43c81ded/raw/d00d9def2f9d610fe2cb67e15448e3c0f5d8cb8b/spiele2017.json', true);
 
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
@@ -59,6 +59,6 @@ function inhaltLoader() {
   document.getElementById('spiel_ersteller').innerHTML = data.alle_spiele[aktuellesSpiel].Name_der_Entwickler;
   document.getElementById('btn_scratch-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
   document.getElementById('btn_download-link').href = data.alle_spiele[aktuellesSpiel].download_link;
-  document.getElementById('titel_bild').src = 'images/foto_spiel_'+aktuellesSpiel+'.png';
+  document.getElementById('titel_bild').src = data.alle_spiele[aktuellesSpiel].picture_link;
   document.getElementById('titel_bild-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
 }
