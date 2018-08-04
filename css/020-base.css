@@ -52,7 +52,7 @@ Wer es noch schöner möchte, möge sich mal https://cssguidelin.es/ anschauen.
     /*
     Schrift
     ----------------------------------------*/
-    --fontfamily: "Roboto", sans-serif;
+    --fontfamily:'Roboto', sans-serif;
     --fontsize: 1rem;
     --fontsize-s: 0.75rem;
     --fontsize-l: 1.5rem;
@@ -77,10 +77,7 @@ h2,
 h3,
 h4 {
     color: var(--color-headlines);
-}
-a {
-
-}
+  }
 
 /* helper
 -----------------------------------------------------------------------------*/
@@ -90,6 +87,10 @@ a {
 .alignLeft{
   float: left;
 }
+.link_ohne_style{
+  text-decoration: none;
+}
+
       /*
       Standart Abstände
       ----------------------------------------*/
