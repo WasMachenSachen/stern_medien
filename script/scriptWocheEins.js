@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   else{aktuellesSpiel = url;}
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://gist.githubusercontent.com/BenediktEngel/0c54749f12f54eabbe8f2eee81a00236/raw/432e794100aeb4d311fa7655180d0c143173a9f8/spieleW1_2018.json', true);
+request.open('GET', 'https://gist.githubusercontent.com/BenediktEngel/0c54749f12f54eabbe8f2eee81a00236/raw/4b778f9b3f1444ea0edcc2f6bf5ee8baa5507577/spieleW1_2018.json', true);
 
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
