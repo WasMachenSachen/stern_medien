@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   else{aktuellesSpiel = url;}
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://gist.githubusercontent.com/WasMachenSachen/2f0e8c10085e90a86487f4025e78d3f5/raw/e2350024b1e0c627ccb7432093a5881e844b98d7/spiele.json', true);
+request.open('GET', 'https://gist.githubusercontent.com/BenediktEngel/6d5675e6b321c7d531cea11262459c2c/raw/27bd60a787b72f98705bc37b1447f2f237565e90/spieleW2_2018.json', true);
 
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
@@ -50,17 +50,17 @@ function spielAnzeigen(){
 }
 function nächstesSpiel(){
   if(aktuellesSpiel < data.alle_spiele.length-1){aktuellesSpiel ++;}
-  document.getElementById('nächstesSpiel').href = 'woche_eins.html?spiel='+aktuellesSpiel;
+  document.getElementById('nächstesSpiel').href = 'woche_zwei.html?spiel='+aktuellesSpiel;
 }
 function letztesSpiel(){
   if(aktuellesSpiel > 0){aktuellesSpiel --;}
-  document.getElementById('letztesSpiel').href = 'woche_eins.html?spiel='+aktuellesSpiel;
+  document.getElementById('letztesSpiel').href = 'woche_zwei.html?spiel='+aktuellesSpiel;
 }
 function inhaltLoader() {
   document.getElementById('spiel_ersteller').innerHTML = data.alle_spiele[aktuellesSpiel].Name_der_Entwickler;
   document.getElementById('btn_scratch-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
   document.getElementById('btn_download-link').href = data.alle_spiele[aktuellesSpiel].download_link;
-  document.getElementById('titel_bild').src = 'images/foto_spiel_'+aktuellesSpiel+'.png';
+  document.getElementById('titel_bild').src = data.alle_spiele[aktuellesSpiel].picture_link;
   document.getElementById('titel_bild-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
 
 }
