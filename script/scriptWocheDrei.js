@@ -50,17 +50,17 @@ function spielAnzeigen(){
 }
 function nächstesSpiel(){
   if(aktuellesSpiel < data.alle_spiele.length-1){aktuellesSpiel ++;}
-  document.getElementById('nächstesSpiel').href = 'woche_eins.html?spiel='+aktuellesSpiel;
+  document.getElementById('nächstesSpiel').href = 'woche_drei.html?spiel='+aktuellesSpiel;
 }
 function letztesSpiel(){
   if(aktuellesSpiel > 0){aktuellesSpiel --;}
-  document.getElementById('letztesSpiel').href = 'woche_eins.html?spiel='+aktuellesSpiel;
+  document.getElementById('letztesSpiel').href = 'woche_drei.html?spiel='+aktuellesSpiel;
 }
 function inhaltLoader() {
   document.getElementById('spiel_ersteller').innerHTML = data.alle_spiele[aktuellesSpiel].Name_der_Entwickler;
   document.getElementById('btn_scratch-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
   document.getElementById('btn_download-link').href = data.alle_spiele[aktuellesSpiel].download_link;
-  document.getElementById('titel_bild').src = 'images/foto_spiel_'+aktuellesSpiel+'.png';
+  document.getElementById('titel_bild').src = data.alle_spiele[aktuellesSpiel].picture_link;
   document.getElementById('titel_bild-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
 
 }
