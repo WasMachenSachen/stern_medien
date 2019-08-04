@@ -59,6 +59,6 @@ function inhaltLoader() {
   document.getElementById('spiel_ersteller').innerHTML = data.alle_spiele[aktuellesSpiel].Name_der_Entwickler;
   document.getElementById('btn_scratch-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
   document.getElementById('btn_download-link').href = data.alle_spiele[aktuellesSpiel].download_link;
-  document.getElementById('titel_bild').src = data.alle_spiele[aktuellesSpiel].picture_link;
+  document.getElementById('titel_bild').src = "../" + data.alle_spiele[aktuellesSpiel].picture_link;
   document.getElementById('titel_bild-link').href = data.alle_spiele[aktuellesSpiel].scratch_link;
 }
