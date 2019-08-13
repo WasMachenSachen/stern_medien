@@ -1,0 +1,239 @@
+{
+  "alle_spiele" : [
+    {
+      "Name_der_Entwickler" : "Anna & Sevi",
+      "Spiel_title" : "Spiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Anna & Sevi",
+      "Spiel_title" : "Unser Spiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Chris & Johannes",
+      "Spiel_title" : "Fußballspiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Chris & Johannes",
+      "Spiel_title" : "Rechner",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Clemens & Christian",
+      "Spiel_title" : "Chick",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Clemens & Christian",
+      "Spiel_title" : "Space Chicken",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "David & Luca",
+      "Spiel_title" : "Jump and Run",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Elias & Jannik",
+      "Spiel_title" : "Eigenes Spiel 1",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Elias & Jannik",
+      "Spiel_title" : "Eigenes Spiel 2",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Emily & Paloma",
+      "Spiel_title" : "Find and Buy",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Emily & Paloma",
+      "Spiel_title" : "Inspektor im Dunklen",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Franzi & Maren",
+      "Spiel_title" : "Spiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Helena & Yin",
+      "Spiel_title" : "Astronauten auf dem Mond",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Helena & Yin",
+      "Spiel_title" : "Basketballspiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Helena & Yin",
+      "Spiel_title" : "Catch the fish",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Helena & Yin",
+      "Spiel_title" : "Divercatching",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Helena & Yin",
+      "Spiel_title" : "Fanclub",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Inge & Tale",
+      "Spiel_title" : "Spiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Johannes & Luis",
+      "Spiel_title" : "Castle Rush",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Johannes & Luis",
+      "Spiel_title" : "Jungle Escape",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Joshua & Shahin",
+      "Spiel_title" : "Quis",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Joshua & Shahin",
+      "Spiel_title" : "Vidio",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Joshua & Shahin",
+      "Spiel_title" : "Spiel Bus",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Joshua & Shahin",
+      "Spiel_title" : "Eigenes Spiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Katherina & Sophia",
+      "Spiel_title" : "Eigene Spiele 1-5",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Katherina & Sophia",
+      "Spiel_title" : "Klick",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Laura & Tristan",
+      "Spiel_title" : "Erstes Videospiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Leo & Theo",
+      "Spiel_title" : "Doppel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Leon & Felix",
+      "Spiel_title" : "Spiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Levi & Lucas",
+      "Spiel_title" : "Jamies Adventure",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Levi & Lucas",
+      "Spiel_title" : "Picozwiebel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Levi & Lucas",
+      "Spiel_title" : "Zwiebelspiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Max & Ben",
+      "Spiel_title" : "Spiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Maxi & Adrian",
+      "Spiel_title" : "Chicken Wing",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Maxi & Adrian",
+      "Spiel_title" : "Ping Pong",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Maxi & Adrian",
+      "Spiel_title" : "Planet",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Nicolas & Julius",
+      "Spiel_title" : "Squash",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Nicolas & Julius",
+      "Spiel_title" : "WER",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Philip & Florian",
+      "Spiel_title" : "Cheese Puffs",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Philip & Florian",
+      "Spiel_title" : "das das wie oft",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Philip & Florian",
+      "Spiel_title" : "weltraum",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Philip & Florian",
+      "Spiel_title" : "Wilde Ballerei",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Ronja & Maxi",
+      "Spiel_title" : "Ausgedachtes Panzerspiel",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Ronja & Maxi",
+      "Spiel_title" : "Panzerspiel mit Labyrinth",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Fabian, Lennard & Manuel",
+      "Spiel_title" : "Meteorit",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Luka & Manuel",
+      "Spiel_title" : "Team Sucuk",
+      "download_link" : ""
+     },
+     {
+      "Name_der_Entwickler" : "Luka & Manuel",
+      "Spiel_title" : "Your Mama",
+      "download_link" : ""
+     }
+    ]
+  }
